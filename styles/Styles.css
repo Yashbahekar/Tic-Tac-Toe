@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+}
+#main-header {
+  /* background-color: rgb(5, 77, 136); */
+  background-color: rgb(4, 89, 160);
+  color: whitesmoke;
+  text-align: center;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 20px;
+}
+
+
+
+.btn{
+  font: inherit;
+  /* background-color: rgb(140, 0, 255); */
+  background-color: rgb(35, 130, 194);
+  color: whitesmoke;
+  padding: 0.5rem 1.5rem;
+  /* font-size: 25px; */
+  border-radius: 4px;
+  border: 1px solid rgb(35, 130, 194);
+  cursor: pointer;
+}
+.btn-alt{
+  background-color: transparent;
+  border-color: transparent;
+  font: inherit;
+  color: rgb(35, 130, 194);
+}
+
+.btn:hover{
+  background-color: rgb(15, 65, 99);
+  border-color: rgb(15, 65, 99);
+}
+.btn-alt:hover{
+  background-color: rgb(245,232,255);
+  border-color: transparent;
+}
+
